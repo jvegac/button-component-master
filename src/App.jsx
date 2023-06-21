@@ -13,6 +13,7 @@ export function App() {
                     <Button name="btn-def-2" text = "default"/>
                     <Button name="btn-def-3" text = "default"/>
                     <Button name="btn-def-4" text = "default"/>
+                    <Button name="btn-def-5" text = "default"/>
                 </section>
             </main>
         </>

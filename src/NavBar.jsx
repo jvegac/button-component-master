@@ -7,8 +7,8 @@ export function NavBar(){
           <a className="nav-link">Colors</a>
           <a className="nav-link">Typography</a>
           <a className="nav-link">Spaces</a>
-          <a className="nav-link">Buttons</a>
-          <a id="selected" className="nav-link">Inputs</a>
+          <a id="selected" className="nav-link">Buttons</a>
+          <a className="nav-link">Inputs</a>
           <a className="nav-link">Grid</a>
         </nav>
       </header></div>
