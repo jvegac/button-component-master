@@ -1,5 +1,7 @@
-export function Button({name, text}){
-    return(
-    <button className={name}> {text} </button>
+
+export function Button({ name, text }) {
+
+    return (
+        <button className={name}>{text} </button>
     )
 }

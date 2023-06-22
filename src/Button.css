@@ -15,7 +15,13 @@
     line-height: 36px;
     color: #4f4f4f;
 }
-.btn-def-1, .btn-def-2, .btn-def-3, .btn-def-4, .btn-def-5{
+
+.btn-def-1,
+.btn-def-2,
+.btn-def-3,
+.btn-def-4,
+.btn-def-5,
+.btn-def-6 {
     position: absolute;
     cursor: pointer;
     width: 81px;
@@ -28,6 +34,7 @@
     text-align: center;
     border-radius: 6px;
 }
+
 .btn-def-1 {
     left: 319px;
     top: 141px;
@@ -56,6 +63,7 @@
     border: 1px solid #3D5AFE;
     border-radius: 6px;
     color: #3D5AFE;
+    background: none;
 }
 
 .btn-def-4 {
@@ -63,7 +71,8 @@
     top: 254px;
     background: rgba(41, 98, 255, 0.1);
     border: 1px solid #3D5AFE;
-   
+    color: #3D5AFE;
+
 }
 
 .btn-def-5 {
@@ -72,4 +81,10 @@
     background: none;
     border: none;
     color: #3D5AFE;
+}
+
+.btn-def-6 {
+    top: 357px;
+    left: 555px;
+    border: none;
 }
