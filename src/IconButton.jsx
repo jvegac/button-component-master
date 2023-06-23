@@ -1,14 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+//import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
-const IconButton = (name, children) => {
+
+
+const IconButton = (name, position) => {
     return (
-        <button className={name}>
-            <FontAwesomeIcon icon={faCartPlus} />
-             {children}
-        </button>
+        <>
+        <Button variant = "contained" startIcon={<AddShoppingCartIcon />}> Default</Button>
+        </>
     );
-
 }
-
 export default IconButton

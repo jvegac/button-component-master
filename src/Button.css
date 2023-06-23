@@ -21,7 +21,10 @@
 .btn-def-3,
 .btn-def-4,
 .btn-def-5,
-.btn-def-6 {
+.btn-def-6,
+.btn-disha-def-7,
+.btn-dis-def-8,
+.btn-dis-def-9 {
     position: absolute;
     cursor: pointer;
     width: 81px;
@@ -87,4 +90,24 @@
     top: 357px;
     left: 555px;
     border: none;
+}
+
+.btn-disha-def-7 {
+    Top: 453px;
+    Left: 319px;
+    background-color: #3D5AFE;
+    color: white
+
+}
+
+.btn-dis-def-8{
+    Top: 558px;
+    Left: 319px
+}
+
+.btn-dis-def-9{
+    Top:566px;
+    Left:558px;
+    border: none;
+    background: none
 }
